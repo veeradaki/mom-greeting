@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(#ffdee9, #b5fffc);
+  text-align: center;
+  overflow: hidden;
+}
+
+.container {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #ffffffb3;
+  border-radius: 20px;
+  display: inline-block;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1, h2 {
+  color: #e91e63;
+}
+
+.mom-photo {
+  width: 200px;
+  height: auto;
+  border-radius: 15px;
+  margin: 10px 0;
+  box-shadow: 0 0 10px #e91e63;
+}
+
+.main-quote {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #ff4081;
+}
+
+.quote-box {
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 1.2rem;
+  color: #333;
+  max-width: 500px;
+  background-color: #fff8f9;
+  border-left: 5px solid #e91e63;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #e91e63;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+button:hover {
+  background-color: #d81b60;
+}
+
+#surprise {
+  margin-top: 30px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
